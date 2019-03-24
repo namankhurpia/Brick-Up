@@ -51,7 +51,7 @@ public class HouseSpec extends AppCompatActivity {
 
                 Toast.makeText(getApplicationContext(), "Value saved", Toast.LENGTH_SHORT).show();
 
-                Intent i = new Intent(HouseSpec.this, HomeScreen.class);
+                Intent i = new Intent(HouseSpec.this, Relax.class);
                 startActivity(i);
 
             }

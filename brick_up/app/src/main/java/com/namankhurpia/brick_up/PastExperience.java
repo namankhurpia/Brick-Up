@@ -33,6 +33,7 @@ CardView confirm;
         cost=(EditText)findViewById(R.id.cost);
         save=(ImageButton)findViewById(R.id.savebutton);
 
+        confirm=(CardView)findViewById(R.id.confirm);
 
 
         save.setOnClickListener(new View.OnClickListener() {

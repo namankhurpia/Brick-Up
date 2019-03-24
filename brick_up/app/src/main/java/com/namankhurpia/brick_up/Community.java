@@ -22,7 +22,7 @@ btn.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
 
-        Intent i=new Intent(Community.this,Profile.class);
+        Intent i=new Intent(Community.this,PastExperience.class);
         startActivity(i);
     }
 });

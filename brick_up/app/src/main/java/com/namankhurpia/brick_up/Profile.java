@@ -44,7 +44,8 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Toast.makeText(getApplicationContext(), "Value fetched", Toast.LENGTH_SHORT).show();
-                text_s = dataSnapshot.getValue().toString();
+
+
             }
 
             @Override
@@ -71,7 +72,7 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-
+                Toast.makeText(getApplicationContext(), "Value pushed", Toast.LENGTH_SHORT).show();
 
             }
         });

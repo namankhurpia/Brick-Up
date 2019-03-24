@@ -7,12 +7,14 @@
     android:background="@android:color/white"
     tools:context=".Relax">
 
-    <ImageView
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/strech"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:id="@+id/relax"
+        android:background="@null"
         />
     
 </RelativeLayout>
